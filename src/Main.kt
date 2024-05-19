@@ -104,3 +104,81 @@ data class User(
     val password: String
 )
 // create  a data class User with these fields: firstName, lastName, email, phoneNumber, password. Create an instance of User Class and print out any 2 attributes
+
+////TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+//// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+//fun main() {
+//    val banker = Banker("Kevin", 24)
+//    val doctor = Doctor("Anne", 30)
+//    val farmer = Farmer("Scarlet", 22)
+//
+//    banker.introduction()
+//    doctor.introduction()
+//    farmer.introduction()
+//
+//
+//    banker.name
+//    banker.age
+////    banker.countMoney(arrayOf(100, 50, 200, 500, 100))
+////    banker.sleep()
+////    banker.talk("Right turn")
+////
+////
+////    doctor.eat()
+////    doctor.sleep()
+////    doctor.treatPatient("Vivian","Malaria")
+////    doctor.talk("How are you today")
+////
+////    farmer.eat()
+////    farmer.sleep()
+////    farmer.cultivateLand()
+////    doctor.talk("Nice yields")
+//
+//}
+//
+//class Banker(name: String, age: Int):Person(name, age){
+//    fun countMoney(notes: Array<Int>): Int{
+//        var sum = 0
+//        notes.forEach { note -> sum+=note }
+//        return sum
+//    }
+//}
+//
+//class Doctor(name: String, age:Int):Person(name, age){
+//    fun treatPatient(patient: String, disease:String){
+//        println("Treat $patient for $disease")
+//    }
+//    override fun introduction(){
+//        super.introduction()
+//        println("Hi, I am Doctor $name")
+//    }
+//
+//}
+//class Farmer(name: String, age:Int): Person(name, age){
+//    fun cultivateLand(){
+//        println("dig dig dig")
+//    }
+//    override fun eat(){
+//
+//        println("I am eating the food that I have grown")
+//    }
+//
+//}
+//
+//open class  Person(var name: String, var age: Int){
+//    fun talk(words: String){
+//        println(words)
+//    }
+//    open fun eat(){
+//        println("yum")
+//    }
+//
+//    fun sleep(){
+//        println("zzzzzzzzzzzz")
+//    }
+//    open fun introduction(){
+//        println("Hi, I am $name")
+//    }
+//
+//
+//}
